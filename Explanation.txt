@@ -1,0 +1,6 @@
+The function calculateTime takes three parameters as required: $queue, $tapFlows, and $walkingTime.
+The function calculates the total time required for the queue of persons to fill up their water bottles correctly.
+The naming convention is consistent throughout the code.
+The comments provide clear explanations without being overly explanatory or vague.
+The function is modified to assume that the initial people in the queue do not have to walk to the tap in order to fill their bottle, resulting in the correct output of 13.75 from 18.75.
+It is possible for the function to output a larger number if the flow rate of at least one of the taps is increased. For example, if we increase the flow rate of the second tap from 200 to 250 ml/s, the total time required will decrease, resulting in a larger number.
